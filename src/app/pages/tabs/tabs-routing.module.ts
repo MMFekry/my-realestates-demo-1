@@ -60,6 +60,18 @@ const routes: Routes = [
         path: 'feessale',
         loadChildren: () => import('../feessale/feessale.module').then( m => m.FeessalePageModule)
       },
+      {
+        path: 'copycontact',
+        loadChildren: () => import('../copycontact/copycontact.module').then( m => m.CopycontactPageModule)
+      },
+      {
+        path: 'feescopy',
+        loadChildren: () => import('../feescopy/feescopy.module').then( m => m.FeescopyPageModule)
+      },
+      {
+        path: 'successcopy',
+        loadChildren: () => import('../successcopy/successcopy.module').then( m => m.SuccesscopyPageModule)
+      },
 
     ]
   },

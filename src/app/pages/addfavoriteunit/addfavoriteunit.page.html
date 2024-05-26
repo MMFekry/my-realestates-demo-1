@@ -105,12 +105,8 @@
       <ion-col size="6"> 
         <ion-item class="m-0 no-highlight-focus ion-no-padding itemright" lines="none" fill="clear" color="clear">
           <ion-label position="stacked" class="labellog">رقم الوحدة <sup>*</sup></ion-label>
-          <ion-select class="inputlog" interface="popover" placeholder="اختر رقم الوحدة" cancelText="إلغاء" okText="موافق" >
-            <ion-select-option value="1">1</ion-select-option>
-            <ion-select-option value="2">2</ion-select-option>
-            <ion-select-option value="3">3</ion-select-option>
-         </ion-select> 
-          <span class="validationlog">اختر من القائمة</span>
+          <ion-input class="inputlog" type="text" placeholder="اكتب رقم الوحدة"></ion-input>
+          <span class="validationlog">ادخل رقم الوحدة</span>
           </ion-item>
       </ion-col>
 
@@ -145,15 +141,6 @@
           <span class="validationlog">اختر من القائمة</span>
           </ion-item>
       </ion-col>
-
-      <ion-col size="12"> 
-        <ion-item class="m-0 no-highlight-focus ion-no-padding itemright" lines="none" fill="clear" color="clear">
-          <ion-label position="stacked" class="labellog">الوصف <sup>*</sup></ion-label>
-          <ion-textarea class="inputlog" rows="4" placeholder="اكتب الوصف"></ion-textarea>
-          <span class="validationlog">ادخل الوصف</span>
-          </ion-item>
-      </ion-col>
-
 
       <ion-col size="12">
         <ion-button id="open-custom" class="addparty ion-no-padding" fill="clear">

@@ -1,0 +1,86 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="ion-text-center">
+
+    <ion-buttons class="backright" routerLink="../second-servces" >
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+   </ion-buttons>
+
+    <ion-title class="h1 text-white ion-text-center">صورة من عقد مشهر</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-no-padding mb-3">
+   
+  <div class="ion-padding d-inline-block mt-cardcopy px-3 w-100">
+  <ion-card class="white-bg greenLne m-0">
+    <ion-card-header>
+    <ion-card-title class="Graphik-bold h3">٥ شارع أحمد عصمت القاهرة القاهرة</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-chip class="borderradius5 bgLightgreen greenText Graphik-Reg">
+        <ion-label>عقار مسجل</ion-label>
+        </ion-chip>
+
+          <ion-chip class="borderradius5 bgLightgreen greenText Graphik-Reg">
+            <ion-label>وحدة</ion-label>
+            </ion-chip>
+
+    </ion-card-content>
+
+  </ion-card>
+
+  <h2 class="titlerealestatetype mt-3 mb-0">
+    ادخل بيانات العقد والعنوان
+  </h2>
+</div>
+  <form>
+    <ion-row>
+      <ion-col size="6"> 
+        <ion-item class="m-0 no-highlight-focus ion-no-padding itemright" lines="none" fill="clear" color="clear">
+          <ion-label position="stacked" class="labellog">رقم العقد <sup>*</sup></ion-label>
+          <ion-input class="inputlog" type="number" placeholder="اكتب الرقم"></ion-input>
+          <span class="validationlog">ادخل رقم العقد</span>
+          </ion-item>
+      </ion-col>
+
+      <ion-col size="6"> 
+        <ion-item class="m-0 no-highlight-focus ion-no-padding itemright" lines="none" fill="clear" color="clear">
+          <ion-label position="stacked" class="labellog">سنة العقد <sup>*</sup></ion-label>
+          <ion-input class="inputlog" type="number" placeholder="اكتب السنة"></ion-input>
+          <span class="validationlog">ادخل سنة العقد</span>
+          </ion-item>
+      </ion-col>
+
+      <ion-col size="12"> 
+        <ion-item class="m-0 no-highlight-focus ion-no-padding itemright" lines="none" fill="clear" color="clear">
+          <ion-label position="stacked" class="labellog">المكتب<sup>*</sup></ion-label>
+          <ion-select class="inputlog" interface="popover" placeholder="اختر المكتب" cancelText="إلغاء" okText="موافق" >
+            <ion-select-option value="شمال القاهرة">شمال القاهرة</ion-select-option>
+            <ion-select-option value="جنوب القاهرة">جنوب القاهرة</ion-select-option>
+         </ion-select>         
+          <span class="validationlog">اختر من القائمة</span>
+          </ion-item>
+      </ion-col>
+
+      <ion-col size="12"> 
+        <ion-item class="m-0 no-highlight-focus ion-no-padding itemright" lines="none" fill="clear" color="clear">
+          <ion-label position="stacked" class="labellog">عنوان الاستلام<sup>*</sup></ion-label>
+          <ion-textarea class="inputlog" rows="2" placeholder="اكتب العنوان"></ion-textarea>
+          <span class="validationlog">ادخل العنوان</span>
+          </ion-item>
+      </ion-col>
+
+
+    </ion-row>
+     </form>   
+
+     <ion-fab vertical="bottom" fill="clear" horizontal="start" slot="fixed">
+      <ion-button fixed bottom fill="clear" class="cancelbtm">
+        الغاء
+      </ion-button>
+      <ion-button class="nextbtn text-white" fill="clear" fixed bottom routerLink="../feescopy">
+        دفع
+      </ion-button>
+      </ion-fab>
+
+</ion-content>

@@ -91,10 +91,12 @@
 
 
   --colorGreen :#007664;
+  --colordarkblue :#1C304C;
+  --colorGold: #BA9742;
   --fontHelveticaNeue: HelveticaNeue;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   /*
    * Dark Colors
    * -------------------------------------------

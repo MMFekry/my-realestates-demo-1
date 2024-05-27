@@ -66,7 +66,7 @@
   font-family: 'Graphik Arabic Web Medium', sans-serif!important ;
 }
   .h1  {
-    font-family: 'Graphik Arabic Web Medium', sans-serif!important; font-size: 20px;
+    font-family: var(--fontHelveticaNeue) !important; font-weight: 700 !important; font-size: 20px;
     line-height: 36px; display: inline-block; margin-bottom:15px;
   }
 
@@ -136,11 +136,11 @@ color: #B6BDC6; position: relative;
       }
 
       .Graphik-Reg {
-        font-family: 'Graphik Arabic Web Regular' !important;
+        font-family: var(--fontHelveticaNeue) !important;
       }
 
       .Graphik-bold {
-        font-family: 'Graphik Arabic Web Bold' !important;
+        font-family: var(--fontHelveticaNeue) !important; font-weight: 700 !important;
       }
 
       .HelveticaNeue {
@@ -155,8 +155,12 @@ color: #B6BDC6; position: relative;
         width: 100% !important;
       }
 
+      .w-50  {
+        width: 48.5% !important;
+      }
+
       .h3   {
-        font-size: 18px !important;
+        font-size: 20px !important;
       }
 
       .m-0  {
@@ -179,8 +183,32 @@ color: #B6BDC6; position: relative;
         padding-bottom: 0 !important;
       }
 
+      .pb-2  {
+        padding-bottom: 5px !important;
+      }
+
+      .px-1  {
+        padding-left: 4px !important; padding-right: 4px !important;
+      }
+
       .px-2  {
         padding-left: 8px !important; padding-right: 8px !important;
+      }
+
+       .px-3  {
+        padding-left: 15px !important; padding-right: 15px !important;
+      }
+
+      .mb-2  {
+        margin-bottom: 4px !important;
+      }
+
+      .d-inline-block  {
+        display:inline-block !important
+      }
+
+      .d-block  {
+        display:block !important
       }
 
       .headaccordion  {
@@ -199,6 +227,8 @@ color: #B6BDC6; position: relative;
        .noshadow  {
 box-shadow: none !important;
        }
+
+  
 
        .cardservces   {
         width:72px; height:72px; border-radius: 50%; margin-bottom: 8px; vertical-align: top;
@@ -220,7 +250,7 @@ box-shadow: none !important;
        }
 
        .servcetaxt  {
-        font-family: 'Graphik Arabic Web Medium', sans-serif!important ; font-size: 17px;
+        font-family: var(--fontHelveticaNeue) !important; font-weight: 700 !important; font-size: 17px;
         color: #000; vertical-align: top; margin-bottom: 0;
        }
 
@@ -231,6 +261,53 @@ box-shadow: none !important;
        .btnlogin   {
         background: var(--colorGreen) !important;  height: 44px;
        }
+
+       .addparty .button-native  {
+        padding: 0 !important;
+     }
+
+     .legacy-input.sc-ion-input-md-h .native-input.sc-ion-input-md  {
+      padding-top: 3px !important;
+     }
+
+     .position-relative  {
+      position: relative !important;
+     }
+
+     .darkblue  {
+        color: var(--colordarkblue)     }
+
+        .notifialert  {
+          position: absolute; top:10px; color: #fff; left:22px; font-size: 30px;
+        }
+
+        .hasnew::before  {
+          position: absolute; top:0; right:1px; background: red; width: 8px; height: 8px;
+          border: 3px var(--colorGreen) solid; border-radius: 50%; content: '';
+        }
+
+     ion-icon.select-icon  {
+      position: absolute !important; left:10px !important
+     }
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+   
+  
+
+     
+
 
    
 

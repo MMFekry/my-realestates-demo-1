@@ -36,6 +36,43 @@ const routes: Routes = [
         path: 'consensual-sale',
         loadChildren: () => import('../consensual-sale/consensual-sale.module').then( m => m.ConsensualSalePageModule)
       },
+      {
+        path: 'salevalue',
+        loadChildren: () => import('../salevalue/salevalue.module').then( m => m.SalevaluePageModule)
+      },
+      {
+        path: 'addparty',
+        loadChildren: () => import('../addparty/addparty.module').then( m => m.AddpartyPageModule)
+      },
+      {
+        path: 'realestatetypes',
+        loadChildren: () => import('../realestatetypes/realestatetypes.module').then( m => m.RealestatetypesPageModule)
+      },
+      {
+        path: 'addfavoriteunit',
+        loadChildren: () => import('../addfavoriteunit/addfavoriteunit.module').then( m => m.AddfavoriteunitPageModule)
+      },
+      {
+        path: 'reviewaddress',
+        loadChildren: () => import('../reviewaddress/reviewaddress.module').then( m => m.ReviewaddressPageModule)
+      },
+      {
+        path: 'feessale',
+        loadChildren: () => import('../feessale/feessale.module').then( m => m.FeessalePageModule)
+      },
+      {
+        path: 'copycontact',
+        loadChildren: () => import('../copycontact/copycontact.module').then( m => m.CopycontactPageModule)
+      },
+      {
+        path: 'feescopy',
+        loadChildren: () => import('../feescopy/feescopy.module').then( m => m.FeescopyPageModule)
+      },
+      {
+        path: 'successcopy',
+        loadChildren: () => import('../successcopy/successcopy.module').then( m => m.SuccesscopyPageModule)
+      },
+
     ]
   },
   {
